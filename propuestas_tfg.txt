@@ -1,0 +1,38 @@
+PROPUESTA 1:
+
+TITULO 1: Criptografía. Algoritmo RSA, generación de números aleatorios y números primos.
+
+Tener 5 apartados:
+
+-Generación de números aleatorios pseudoaleatorios criptográficamente, cuánticos, funciones caóticas,...  -> Se pueden hacer pequeños programitas para generación de números aleatorios
+-Comprobación que es número primo.  -> Igualmente, se puede crear programa para comprobarlo
+-Claves  -> n=p x q
+-Cifrado, descifrado (teorema de Euler) -> Igualmente, se puede crear programa para cifrado/descifrado.
+-Tiempo de cálculo para descifrado y recursos computacionales necesarios  ->  Programar (en mathematica mismamente) y obtener graficas tiempo frente a computación.
+
+****************************************************************************************************************************************************************************************
+PROPUESTA 2:
+
+
+TITULO 2: Análisis de datos y representación. Método de Montecarlo y mapas de calor.
+
+Tener 4 apartados:
+
+-Marco teórico del método de Montecarlo  ->  Teoría.
+-Generación de números aleatorios y hacer varias simulaciones  ->  Se pueden hacer programitas para esto.
+-Comprobación de la distribución de los resultados  ->  Análisis de los resultados.
+-Representación de resultados en mapas de calor  ->  Programar (en mathematica mismamente) y obtener representación de resultados.
+-Ejemplos reales  ->  Aplicar Montecarlo con bases de datos reales y analizar mediante mapas de calor.
+
+****************************************************************************************************************************************************************************************
+PROPUESTA 3:
+
+
+TITULO 3: Métodos numéricos para resolución de ecuaciones no lineales.
+
+Tener 4 apartados:
+
+-Marco teórico de las ecuaciones no lineales  ->  Teoría.
+-Tipos de algoritmos para resolución  ->  Teoría y programas para cada método.
+-Comprobación de recursos computacionales de cada método  ->  Programita para comprobarlo.
+-Representación de resultados de nº interacciones-precisión de resultados  ->  Crear (en mathematica mismamente) los gráficos y conclusiones.

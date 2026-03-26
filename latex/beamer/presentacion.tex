@@ -1,0 +1,160 @@
+ \documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+
+\usepackage{multirow,rotating}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz-cd}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{mathtools,nccmath}%
+\usepackage{etoolbox, xparse} 
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+
+% set colors
+\definecolor{myNewColorA}{RGB}{0, 96, 175}
+\definecolor{myNewColorB}{RGB}{0, 96, 175}
+\definecolor{myNewColorC}{RGB}{0, 96, 175} % {200,200,200}
+\setbeamercolor*{palette primary}{bg=myNewColorC}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg = white}
+\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+\usefonttheme{professionalfonts}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+%------------------------------------------------------------
+% \titlegraphic{\includegraphics[height=0.75cm]{ua_eng_logo.png}} 
+
+% logo of my university
+
+
+\titlegraphic{%
+\includegraphics[width=5.0cm]{logos_universidad/logo_UAX_png.png}
+}
+
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamerfont{institute}{size=\footnotesize}
+\title[Trabajo de fin de grado]{TITULO}%title
+%\subtitle{ }%%subtitle
+\author[]{Autor: Alberto Rayón Chiquero \\ Tutor: - }%%authors
+
+\institute[]{Universidad Alfonso X El Sabio \\ GIF}
+\date[\textcolor{white}{}]
+{Grado en Ingenieria Informática \\ Fecha: 12-07-2023}
+
+%------------------------------------------------------------
+%This block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+% ------Contents below------
+%------------------------------------------------------------
+
+\begin{document}
+
+%The next statement creates the title page.
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents
+\end{frame}
+
+
+% consider removing it if it's too redundant
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Índice}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+%------------------------------------------------------------
+\section{Introducción}
+\begin{frame}{Introducción}
+        \begin{itemize}
+            \item  prueba
+            \item  prueba       
+            \item  prueba
+            	\begin{itemize}
+         		    \item  prueba            	
+         		    \item  prueba
+         		    \item  prueba
+            	\end{itemize}
+            \item  pruebas
+        \end{itemize}
+
+
+
+\end{frame}
+
+
+%\section{Motor de combustión interna de encendido por chispa}
+%\begin{frame}{Motor de combustión interna de encendido por chispa}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[scale=0.3]{esquemas y diagramas/Otto/diagrama_otto.png}  
+%  \caption{Partes de un motor Otto}
+%\end{figure}
+%Partes del motor Otto:
+%        \begin{itemize}
+%            \item Pistón
+%            \item Cilindro        
+%            \item Bujía
+%            \item Arbol de levas y válvulas
+%            \item Biela y cigüeñal
+%        \end{itemize}
+%\end{frame}
+
+\subsection{Sección}
+\begin{frame}{diapositiva 1}
+prueba
+        \begin{itemize}
+            \item prueba
+            \item prueba       
+        \end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}
+
+\textcolor{myNewColorA}{\Huge{\centerline{Fin}}}
+
+
+
+
+\end{frame}
+
+
+\end{document}
