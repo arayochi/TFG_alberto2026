@@ -1,8 +1,0 @@
-**Marco teórico.
-*Método de Montecarlo.
-
-El método de Montecarlo es un conjunto de métodos-algoritmos que se utilizan para analizar estadísticamente un determinado problema, la idea principal del método es "atacar" lo que se quiera analizar mediante la generación de puntos aleatorios y posteriormente analizar cuales están dentro de una solución y cuales están fuera, mediante el análisis de esa estadística se puede llegar a conclusiones de soluciones o rangos donde se encuentran.
-
-
- Se utiliza en múltiples campos como matemáticas o física para obtener soluciones de problemas complejos2
-
